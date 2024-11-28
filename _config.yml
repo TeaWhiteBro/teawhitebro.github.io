@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhiyang Deng"
-description              : "Research Assistant at NJU. "
+description              : "Undergrad@HNU."
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhiyang Deng (邓智阳)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Research Assistant at NJU."
+  bio              : "Research Assistant at NJU(SZ)."
   location         : "Jiangsu, China"
   employer         :
   pubmed           : 
