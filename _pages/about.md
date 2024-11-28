@@ -23,7 +23,7 @@ My research interest lies in computer graphics, especially in reconstruction and
 
 
 # 🔥 News
-- *2024.11*: &nbsp;🎉🎉 I am officially a research assistant at NJU(SZ), any coffee chat is welcomed! 
+- *2024.11*: &nbsp;🎉🎉 I am officially working as a research assistant at NJU(SZ), any coffee chat is welcomed! 
 - *2024.11*: &nbsp;🎉🎉 One paper has been submitted to CVPR 2025, where I am listed as first author.
 
 # 📖 Educations
