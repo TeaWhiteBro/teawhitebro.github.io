@@ -27,7 +27,7 @@ My research interest lies in computer graphics, especially in reconstruction and
 - *2024.11*: &nbsp;🎉🎉 One paper has been submitted to CVPR 2025, where I am listed as first author.
 
 # 📖 Educations
-- *2015.09 - 2019.06*, Undergraduate, Hunan University. 
+- *2021.09 - 2025.06*, Undergraduate, Hunan University. 
 
 # 📝 Publications 
 
