@@ -44,6 +44,7 @@ TextureAvatar: Texture Enhanced 3D Gaussian Splatting for Avatar Modeling from M
 </div>
 
 # 🎖 Honors and Awards
+- *2024.12* Hunan University 2023-2024 Individual Scholarship. 
 - *2023.12* Hunan University 2022-2023 Individual Scholarship. 
 - *2022.12* Hunan University 2021-2022 Individual Scholarship.
 
