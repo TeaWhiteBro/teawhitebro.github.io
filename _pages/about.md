@@ -40,6 +40,9 @@ TextureAvatar: Texture Enhanced 3D Gaussian Splatting for Avatar Modeling from M
 
 [Project] [Paper] [Code]
 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 Under Review</div><img src='images/MotionAvatar_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
