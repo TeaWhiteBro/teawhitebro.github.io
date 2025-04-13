@@ -23,20 +23,29 @@ My research interest lies in computer graphics, especially in reconstruction and
 
 
 # 🔥 News
+- *2025.04*: &nbsp;🎉🎉 Two paper has been submitted to ACM MM 2025, where I am listed as first author and co-first author.
 - *2024.11*: &nbsp;🎉🎉 I am officially working as a research assistant at NJU(SZ), any coffee chat is welcomed! 
-- *2024.11*: &nbsp;🎉🎉 One paper has been submitted to CVPR 2025, where I am listed as first author.
 
 # 📖 Educations
 - *2021.09 - 2025.06*, Undergraduate, Hunan University. 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Under Review</div><img src='images/Teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 Under Review</div><img src='images/TextureAvatar_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 TextureAvatar: Texture Enhanced 3D Gaussian Splatting for Avatar Modeling from Monocular Videos
 
 **Zhiyang Deng**, Hongyu Wang, Xiaojun Chen, Ying Liu, Ruihui Li
+
+[Project] [Paper] [Code]
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 Under Review</div><img src='images/MotionAvatar_teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+MotionAvatar: Animatable Avatar from Monocular Videos via Motion Prior
+
+Hongyu Wang*, **Zhiyang Deng\***, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li
 
 [Project] [Paper] [Code]
 
