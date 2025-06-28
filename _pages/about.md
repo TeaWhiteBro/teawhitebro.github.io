@@ -17,17 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm now working as a research assistant at [Nanjing University (Suzhou Campus)](https://njusz.nju.edu.cn/main.htm). At the same time, I am a forth-year undergraduate student advised by [Prof. Ruihui Li](http://csee.hnu.edu.cn/people/liruihui) at [Hunan University](https://www.hnu.edu.cn/), expected to graduate in 2025.06.
+I'm now a master student at National University of Singapore(NUS) majoring in Computing. At the same time, I'm working as a research assistant at [Nanjing University (Suzhou Campus)](https://njusz.nju.edu.cn/main.htm). Previously, I graduated with a bachelor's degree advised by [Prof. Ruihui Li](http://csee.hnu.edu.cn/people/liruihui) at [Hunan University](https://www.hnu.edu.cn/).
 
 My research interest lies in computer graphics, especially in reconstruction and generation of 3d digital humans. 
 
 
 # 🔥 News
+- *2025.05*: &nbsp;🎉🎉 I have received a offer of Master of Computing from the National University of Singapore!
 - *2025.04*: &nbsp;🎉🎉 Two paper has been submitted to ACM MM 2025, where I am listed as first author and co-first author.
 - *2024.11*: &nbsp;🎉🎉 I am officially working as a research assistant at NJU(SZ), any coffee chat is welcomed! 
 
 # 📖 Educations
-- *2021.09 - 2025.06*, Undergraduate, Hunan University. 
+- *2025.08 - 2027.01*, Master, Computing, National University of Singapore. 
+- *2021.09 - 2025.06*, Undergraduate, Mathematics and Applied Mathematics, Hunan University. 
 
 # 📝 Publications 
 
@@ -62,4 +64,4 @@ Hongyu Wang*, **Zhiyang Deng\***, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li
 
 # 💻 Internships
 - *2024.11 - now*, Research Assistant at NJU(SZ).
-- *2024.10 - now*, Research Intern at PolyU.
+- *2024.10 - 2025.04*, Research Intern at PolyU.
