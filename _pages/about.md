@@ -60,11 +60,11 @@ Hongyu Wang*, **Zhiyang Deng\***, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li
 </div>
 
 # 🎖 Honors and Awards
-- *2024.12* **Hunan University 2023-2024 Individual Scholarship. **
-- *2023.12* **Hunan University 2022-2023 Individual Scholarship. **
-- *2022.12* **Hunan University 2021-2022 Individual Scholarship. **
+- *2024.12* Hunan University 2023-2024 Individual Scholarship. 
+- *2023.12* Hunan University 2022-2023 Individual Scholarship. 
+- *2022.12* Hunan University 2021-2022 Individual Scholarship. 
 
 # 💻 Internships
-- *2024.11 - now*, Research Assistant at **NJU(SZ).
+- *2024.11 - now*, Research Assistant at NJU(SZ).
 - *2024.10 - 2025.04*, Research Intern at PolyU.
 - *2026.01 - now*, Generative AI Research Intern at Riot Games.
