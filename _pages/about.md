@@ -17,13 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm now a master student at National University of Singapore(NUS) majoring in Computing. At the same time, I'm working as a research assistant at [Nanjing University (Suzhou Campus)](https://njusz.nju.edu.cn/main.htm). Previously, I graduated with a bachelor's degree advised by [Prof. Ruihui Li](http://csee.hnu.edu.cn/people/liruihui) at [Hunan University](https://www.hnu.edu.cn/).
+I'm now a master student at National University of Singapore(NUS) majoring in Computing. At the same time, I'm working as Generative AI Research Intern at Riot Games. Previously, I was working as a research assistant at [Nanjing University (Suzhou Campus)](https://njusz.nju.edu.cn/main.htm). Before joining NUS, I graduated with a bachelor's degree advised by [Prof. Ruihui Li](http://csee.hnu.edu.cn/people/liruihui) at [Hunan University](https://www.hnu.edu.cn/).
 
 My research interest lies in computer graphics, especially in reconstruction and generation of 3d digital humans. 
 
 
 # 🔥 News
-- *2025.05*: &nbsp;🎉🎉 I have received a offer of Master of Computing from the National University of Singapore!
+- *2025.12*: &nbsp;🎉🎉 I have received an internship offer from Riot Games in Singapore started from 2026 Jan.
+- *2025.11*: &nbsp;🎉🎉 One paper has been submitted to CVPR 2026, where I am listed as first author and co-first author.
+- *2025.05*: &nbsp;🎉🎉 I have received the offer of Master of Computing from the National University of Singapore!
 - *2025.04*: &nbsp;🎉🎉 Two paper has been submitted to ACM MM 2025, where I am listed as first author and co-first author.
 - *2024.11*: &nbsp;🎉🎉 I am officially working as a research assistant at NJU(SZ), any coffee chat is welcomed! 
 
@@ -33,7 +35,7 @@ My research interest lies in computer graphics, especially in reconstruction and
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 Under Review</div><img src='images/TextureAvatar_teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/TextureAvatar_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 TextureAvatar: Texture Enhanced 3D Gaussian Splatting for Avatar Modeling from Monocular Videos
@@ -45,7 +47,7 @@ TextureAvatar: Texture Enhanced 3D Gaussian Splatting for Avatar Modeling from M
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 Under Review</div><img src='images/MotionAvatar_teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/MotionAvatar_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 MotionAvatar: Animatable Avatar from Monocular Videos via Motion Prior
@@ -58,10 +60,11 @@ Hongyu Wang*, **Zhiyang Deng\***, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li
 </div>
 
 # 🎖 Honors and Awards
-- *2024.12* Hunan University 2023-2024 Individual Scholarship. 
-- *2023.12* Hunan University 2022-2023 Individual Scholarship. 
-- *2022.12* Hunan University 2021-2022 Individual Scholarship.
+- *2024.12* **Hunan University 2023-2024 Individual Scholarship. **
+- *2023.12* **Hunan University 2022-2023 Individual Scholarship. **
+- *2022.12* **Hunan University 2021-2022 Individual Scholarship. **
 
 # 💻 Internships
-- *2024.11 - now*, Research Assistant at NJU(SZ).
+- *2024.11 - now*, Research Assistant at **NJU(SZ).
 - *2024.10 - 2025.04*, Research Intern at PolyU.
+- *2026.01 - now*, Generative AI Research Intern at Riot Games.
