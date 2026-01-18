@@ -23,10 +23,11 @@ My research interest lies in computer graphics, especially in reconstruction and
 
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉🎉 One Paper has been accepted by ICASSP 2026.
 - *2025.12*: &nbsp;🎉🎉 I have received an internship offer from Riot Games in Singapore started from 2026 Jan.
-- *2025.11*: &nbsp;🎉🎉 One paper has been submitted to CVPR 2026, where I am listed as first author and co-first author.
+- *2025.11*: One paper has been submitted to CVPR 2026, where I am listed as first author and co-first author.
 - *2025.05*: &nbsp;🎉🎉 I have received the offer of Master of Computing from the National University of Singapore!
-- *2025.04*: &nbsp;🎉🎉 Two paper has been submitted to ACM MM 2025, where I am listed as first author and co-first author.
+- *2025.04*: Two paper has been submitted to ACM MM 2025, where I am listed as first author and co-first author.
 - *2024.11*: &nbsp;🎉🎉 I am officially working as a research assistant at NJU(SZ), any coffee chat is welcomed! 
 
 # 📖 Educations
@@ -35,24 +36,36 @@ My research interest lies in computer graphics, especially in reconstruction and
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/TextureAvatar_teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/GridACharacter_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-TextureAvatar: Texture Enhanced 3D Gaussian Splatting for Avatar Modeling from Monocular Videos
+Grid-A-Character: Delving into Grid Condition Strategy for Unlocking Consistent and Controllable Character Generation
 
-**Zhiyang Deng**, Hongyu Wang, Xiaojun Chen, Ying Liu, Ruihui Li
+**Zhiyang Deng**, Zhuofan Xiao, Jian Yang, Zhenyu Zhang†
 
 [Project] [Paper] [Code]
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/MotionAvatar_teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/MotionAvatar_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-MotionAvatar: Animatable Avatar from Monocular Videos via Motion Prior
+HM-Avatar: Towards Realistic Loose Garment Modeling with Hierarchical MLPS
 
-Hongyu Wang*, **Zhiyang Deng\***, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li
+Hongyu Wang*, **Zhiyang Deng\***, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li†
+
+[Project] [Paper] [Code]
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/TextureAvatar_teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+TextureAvatar: Texture Enhanced 3D Gaussian Splatting for Avatar Modeling from Monocular Videos
+
+**Zhiyang Deng**, Hongyu Wang, Xiaojun Chen, Ying Liu, Ruihui Li†
 
 [Project] [Paper] [Code]
 
@@ -65,6 +78,6 @@ Hongyu Wang*, **Zhiyang Deng\***, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li
 - *2022.12* Hunan University 2021-2022 Individual Scholarship. 
 
 # 💻 Internships
-- *2024.11 - now*, Research Assistant at NJU(SZ).
-- *2024.10 - 2025.04*, Research Intern at PolyU.
-- *2026.01 - now*, Generative AI Research Intern at Riot Games.
+- *2024.11 - 2025.12*, **Research Assistant** at NJU(SZ).
+- *2024.10 - 2025.04*, **Research Intern** at PolyU.
+- *2026.01 - now*, **Generative AI Research Intern** at Riot Games.
