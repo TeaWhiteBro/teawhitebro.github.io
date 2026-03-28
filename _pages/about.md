@@ -16,155 +16,153 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <style>
-/* overall */
 .page__content {
   font-size: 16px;
-  line-height: 1.8;
-}
-
-.anchor {
-  display: block;
-  position: relative;
-  top: -80px;
-  visibility: hidden;
+  line-height: 1.85;
 }
 
 /* intro */
 .profile-intro {
-  font-size: 1.08rem;
+  font-size: 1.06rem;
   line-height: 1.9;
   color: #333;
   margin-bottom: 1rem;
 }
 
 .inline-logo {
-  height: 1.12em;
-  vertical-align: -0.16em;
-  margin: 0 0.18em 0 0.18em;
+  height: 1.08em;
+  vertical-align: -0.14em;
+  margin: 0 0.16em;
 }
 
 /* section title */
 .cv-section-title {
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.9rem;
   font-size: 1.45rem;
   font-weight: 800;
 }
 
-/* card layout */
-.cv-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.2rem;
-  margin: 1rem 0 1.25rem 0;
+/* news */
+.news-panel {
+  background: #fcfcfc;
+  border: 1px solid #e9e9e9;
+  border-radius: 14px;
+  padding: 0.9rem 1.15rem;
+  margin-bottom: 1.8rem;
+}
+
+.news-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.news-list li {
+  margin: 0.45rem 0;
+  line-height: 1.85;
+}
+
+/* entry card */
+.entry-card {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 1rem;
+  align-items: start;
+  margin: 0.95rem 0 1.1rem 0;
   padding: 1rem 1.1rem;
-  border-radius: 16px;
-  background: #fafafa;
   border: 1px solid #e8e8e8;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.04);
-}
-
-.cv-card-logo {
-  width: 118px;
-  min-width: 118px;
-  height: 118px;
-  object-fit: contain;
-  border-radius: 12px;
+  border-radius: 14px;
   background: #fff;
-  padding: 0.6rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.entry-logo-wrap {
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+  background: #fafafa;
   border: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.cv-card-content {
-  flex: 1;
+.entry-logo {
+  width: 72%;
+  height: 72%;
+  object-fit: contain;
 }
 
-.cv-card-org {
+/* 对横版 logo 稍微放大一点 */
+.entry-logo-wide {
+  width: 82%;
+  height: 56%;
+  object-fit: contain;
+}
+
+.entry-title {
   font-size: 1.22rem;
   font-weight: 800;
   color: #111;
-  margin-bottom: 0.15rem;
-}
-
-.cv-card-role {
-  font-size: 1.03rem;
-  font-weight: 700;
-  color: #222;
   margin-bottom: 0.2rem;
 }
 
-.cv-card-time {
-  font-size: 0.96rem;
+.entry-subtitle {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0.15rem;
+}
+
+.entry-time {
+  font-size: 0.95rem;
   color: #666;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.55rem;
 }
 
-.cv-card-content ul {
-  margin-top: 0.3rem;
-  margin-bottom: 0;
+.entry-desc {
+  margin: 0;
+  padding-left: 1.15rem;
 }
 
-.cv-card-content li {
-  margin-bottom: 0.35rem;
-  line-height: 1.75;
-}
-
-/* news */
-.news-box {
-  padding: 0.8rem 1rem;
-  border-radius: 14px;
-  background: #fcfcfc;
-  border: 1px solid #ececec;
+.entry-desc li {
+  margin-bottom: 0.32rem;
+  line-height: 1.8;
 }
 
 /* publication buttons */
 .paper-links {
-  margin-top: 0.6rem;
+  margin-top: 0.55rem;
 }
 
 .paper-btn {
   display: inline-block;
-  margin-right: 0.5rem;
+  margin-right: 0.45rem;
   margin-top: 0.35rem;
-  padding: 0.22rem 0.72rem;
+  padding: 0.2rem 0.72rem;
   border-radius: 999px;
-  border: 1px solid #d9d9d9;
-  background: #ffffff;
-  font-size: 0.92rem;
+  border: 1px solid #dddddd;
+  background: #fff;
+  font-size: 0.9rem;
   font-weight: 600;
   color: #333 !important;
   text-decoration: none !important;
 }
 
 .paper-btn:hover {
-  background: #f5f5f5;
+  background: #f6f6f6;
   text-decoration: none !important;
 }
 
-/* paper box refinement */
-.paper-box {
-  margin-bottom: 1.35rem;
-}
-
-/* badge a bit cleaner */
-.badge {
-  display: inline-block;
-  padding: 0.2rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.82rem;
-  font-weight: 700;
-}
-
-/* mobile */
 @media (max-width: 768px) {
-  .cv-card {
-    flex-direction: column;
+  .entry-card {
+    grid-template-columns: 1fr;
   }
 
-  .cv-card-logo {
-    width: 92px;
-    min-width: 92px;
-    height: 92px;
+  .entry-logo-wrap {
+    width: 78px;
+    height: 78px;
   }
 }
 </style>
@@ -192,39 +190,43 @@ redirect_from:
 
 ## 🔥 News
 
-<div class="news-box">
-
-- *2026.01*: 🎉 One paper has been accepted by **ICASSP 2026**.
-- *2025.12*: 🎉 I received an internship offer from **Riot Games Singapore**, starting in January 2026.
-- *2025.11*: One paper was submitted to **CVPR 2026**, where I am listed as first author and co-first author.
-- *2025.05*: 🎉 I received an offer for the **Master of Computing** program at the **National University of Singapore**.
-- *2025.04*: Two papers were submitted to **ACM MM 2025**, where I am listed as first author and co-first author.
-- *2024.11*: 🎉 I officially started working as a **Research Assistant** at **NJU(SZ)**. Feel free to reach out for a coffee chat!
-
+<div class="news-panel">
+  <ul class="news-list">
+    <li><strong>2026.01</strong>: 🎉 One paper has been accepted by <strong>ICASSP 2026</strong>.</li>
+    <li><strong>2025.12</strong>: 🎉 I received an internship offer from <strong>Riot Games Singapore</strong>, starting in January 2026.</li>
+    <li><strong>2025.11</strong>: One paper was submitted to <strong>CVPR 2026</strong>, where I am listed as first author and co-first author.</li>
+    <li><strong>2025.05</strong>: 🎉 I received an offer for the <strong>Master of Computing</strong> program at the <strong>National University of Singapore</strong>.</li>
+    <li><strong>2025.04</strong>: Two papers were submitted to <strong>ACM MM 2025</strong>, where I am listed as first author and co-first author.</li>
+    <li><strong>2024.11</strong>: 🎉 I officially started working as a <strong>Research Assistant</strong> at <strong>NJU(SZ)</strong>. Feel free to reach out for a coffee chat!</li>
+  </ul>
 </div>
 
 <h2 class="cv-section-title">📖 Education</h2>
 
-<div class="cv-card">
-  <img class="cv-card-logo" src="/images/nus-logo.jpg" alt="NUS logo">
-  <div class="cv-card-content">
-    <div class="cv-card-org">National University of Singapore</div>
-    <div class="cv-card-role">Master of Computing</div>
-    <div class="cv-card-time">Aug. 2025 – Jan. 2027</div>
-    <ul>
+<div class="entry-card">
+  <div class="entry-logo-wrap">
+    <img class="entry-logo entry-logo-wide" src="/images/nus-logo.jpg" alt="NUS logo">
+  </div>
+  <div>
+    <div class="entry-title">National University of Singapore</div>
+    <div class="entry-subtitle">Master of Computing</div>
+    <div class="entry-time">Aug. 2025 – Jan. 2027</div>
+    <ul class="entry-desc">
       <li>Currently pursuing a Master’s degree in Computing.</li>
       <li>Research focus: computer graphics, generative modeling, and 3D digital humans.</li>
     </ul>
   </div>
 </div>
 
-<div class="cv-card">
-  <img class="cv-card-logo" src="/images/hnu-logo.png" alt="Hunan University logo">
-  <div class="cv-card-content">
-    <div class="cv-card-org">Hunan University</div>
-    <div class="cv-card-role">B.Sc. in Mathematics and Applied Mathematics</div>
-    <div class="cv-card-time">Sep. 2021 – Jun. 2025</div>
-    <ul>
+<div class="entry-card">
+  <div class="entry-logo-wrap">
+    <img class="entry-logo" src="/images/hnu-logo.png" alt="Hunan University logo">
+  </div>
+  <div>
+    <div class="entry-title">Hunan University</div>
+    <div class="entry-subtitle">B.Sc. in Mathematics and Applied Mathematics</div>
+    <div class="entry-time">Sep. 2021 – Jun. 2025</div>
+    <ul class="entry-desc">
       <li>Completed undergraduate training in mathematics and applied mathematics.</li>
       <li>Built research experience in graphics and related computational methods during this period.</li>
     </ul>
@@ -233,39 +235,45 @@ redirect_from:
 
 <h2 class="cv-section-title">💼 Experience</h2>
 
-<div class="cv-card">
-  <img class="cv-card-logo" src="/images/riot-logo.png" alt="Riot Games logo">
-  <div class="cv-card-content">
-    <div class="cv-card-org">Riot Games</div>
-    <div class="cv-card-role">Generative AI Research Intern</div>
-    <div class="cv-card-time">Jan. 2026 – Present</div>
-    <ul>
+<div class="entry-card">
+  <div class="entry-logo-wrap">
+    <img class="entry-logo" src="/images/riot-logo.png" alt="Riot Games logo">
+  </div>
+  <div>
+    <div class="entry-title">Riot Games</div>
+    <div class="entry-subtitle">Generative AI Research Intern</div>
+    <div class="entry-time">Jan. 2026 – Present</div>
+    <ul class="entry-desc">
       <li>Work on generative AI research and development for image generation and editing related tasks.</li>
       <li>Explore practical research problems and system-level applications of generative models.</li>
     </ul>
   </div>
 </div>
 
-<div class="cv-card">
-  <img class="cv-card-logo" src="/images/nju-logo.png" alt="Nanjing University logo">
-  <div class="cv-card-content">
-    <div class="cv-card-org">Nanjing University (Suzhou Campus)</div>
-    <div class="cv-card-role">Research Assistant</div>
-    <div class="cv-card-time">Nov. 2024 – Dec. 2025</div>
-    <ul>
+<div class="entry-card">
+  <div class="entry-logo-wrap">
+    <img class="entry-logo" src="/images/nju-logo.png" alt="Nanjing University logo">
+  </div>
+  <div>
+    <div class="entry-title">Nanjing University (Suzhou Campus)</div>
+    <div class="entry-subtitle">Research Assistant</div>
+    <div class="entry-time">Nov. 2024 – Dec. 2025</div>
+    <ul class="entry-desc">
       <li>Worked on research projects related to computer graphics and 3D human modeling.</li>
       <li>Contributed to experiments, implementation, and paper writing.</li>
     </ul>
   </div>
 </div>
 
-<div class="cv-card">
-  <img class="cv-card-logo" src="/images/polyu-logo.png" alt="PolyU logo">
-  <div class="cv-card-content">
-    <div class="cv-card-org">The Hong Kong Polytechnic University</div>
-    <div class="cv-card-role">Research Intern</div>
-    <div class="cv-card-time">Oct. 2024 – Apr. 2025</div>
-    <ul>
+<div class="entry-card">
+  <div class="entry-logo-wrap">
+    <img class="entry-logo entry-logo-wide" src="/images/polyu-logo.png" alt="PolyU logo">
+  </div>
+  <div>
+    <div class="entry-title">The Hong Kong Polytechnic University</div>
+    <div class="entry-subtitle">Research Intern</div>
+    <div class="entry-time">Oct. 2024 – Apr. 2025</div>
+    <ul class="entry-desc">
       <li>Participated in research projects as a research intern.</li>
       <li>Focused on topics related to graphics and visual computing.</li>
     </ul>
