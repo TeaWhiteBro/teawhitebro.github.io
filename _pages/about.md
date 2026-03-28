@@ -315,7 +315,7 @@ redirect_from:
 
 **HM-Avatar: Towards Realistic Loose Garment Modeling with Hierarchical MLPs**
 
-Hongyu Wang*, **Zhiyang Deng***, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li†
+Hongyu Wang\*, **Zhiyang Deng**\*, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li†
 
 <div class="paper-links">
   <a class="paper-btn" href="#">Project</a>
