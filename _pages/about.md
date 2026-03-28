@@ -178,10 +178,10 @@ redirect_from:
   <a href="https://www.riotgames.com/">Riot Games</a>.
   Previously, I worked as a Research Assistant at
   <img class="inline-logo" src="/images/nju-logo.png" alt="Nanjing University logo">
-  <a href="https://njusz.nju.edu.cn/main.htm">Nanjing University (Suzhou Campus)</a>.
+  <a href="https://njusz.nju.edu.cn/main.htm">Nanjing University (Suzhou Campus)</a>, supervised by Prof.<a href="https://jessezhang92.github.io/index.html">Zhenyu Zhang</a>
   Before joining NUS, I received my bachelor’s degree from
   <img class="inline-logo" src="/images/hnu-logo.png" alt="Hunan University logo">
-  <a href="https://www.hnu.edu.cn/">Hunan University</a>.
+  <a href="https://www.hnu.edu.cn/">Hunan University</a>, mentored by Prof.<a href="https://csee.hnu.edu.cn/people/liruihui">Ruihui Li</a>
 </div>
 
 <div class="profile-intro" style="margin-top:-0.2rem; margin-bottom:1.5rem;">
