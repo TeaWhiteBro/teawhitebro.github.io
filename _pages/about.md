@@ -35,6 +35,12 @@ redirect_from:
   margin: 0 0.16em;
 }
 
+.inline-logo-wide {
+  height: 0.9em;
+  vertical-align: -0.05em;
+  margin: 0 0.16em;
+}
+
 /* section title */
 .cv-section-title {
   margin-top: 2rem;
@@ -173,8 +179,8 @@ redirect_from:
   I am currently a Master’s student in Computing at
   <img class="inline-logo" src="/images/nus-logo.jpg" alt="NUS logo">
   <a href="https://www.nus.edu.sg/">National University of Singapore (NUS)</a>.
-  At the same time, I am working as a Generative AI Research Intern at
-  <img class="inline-logo" src="/images/Tencent_EN.png" alt="Tencent logo">
+  At the same time, I am working as a World Model Research Intern at
+  <img class="inline-logo inline-logo-wide" src="/images/Tencent_EN.png" alt="Tencent logo">
   <a href="https://www.tencent.com/">Tencent</a>.
   Previously, I worked as a Generative AI Research Intern at
   <img class="inline-logo" src="/images/riot-logo.png" alt="Riot Games logo">
@@ -194,7 +200,7 @@ redirect_from:
 
 <div class="news-panel">
   <ul class="news-list">
-    <li><strong>2026.05</strong>: 🎉 I started a new internship as a <strong>Generative AI Research Intern</strong> at <strong>Tencent</strong>, after wrapping up my internship at Riot Games.</li>
+    <li><strong>2026.05</strong>: 🎉 I started a new internship as a <strong>World Model Research Intern</strong> at <strong>Tencent</strong>.</li>
     <li><strong>2026.01</strong>: 🎉 One paper has been accepted by <strong>ICASSP 2026</strong>.</li>
     <li><strong>2025.12</strong>: 🎉 I received an internship offer from <strong>Riot Games Singapore</strong>, starting in January 2026.</li>
     <li><strong>2025.11</strong>: One paper was submitted to <strong>CVPR 2026</strong>, where I am listed as first author and co-first author.</li>
@@ -244,11 +250,10 @@ redirect_from:
   </div>
   <div>
     <div class="entry-title">Tencent</div>
-    <div class="entry-subtitle">Generative AI Research Intern</div>
+    <div class="entry-subtitle">World Model Research Intern</div>
     <div class="entry-time">May 2026 – Present</div>
     <ul class="entry-desc">
-      <li>Work on generative AI research and development for image generation and editing related tasks.</li>
-      <li>Explore practical research problems and system-level applications of generative models.</li>
+      <li>Work on world model related research topics.</li>
     </ul>
   </div>
 </div>
