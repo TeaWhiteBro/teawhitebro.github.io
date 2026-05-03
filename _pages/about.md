@@ -174,9 +174,11 @@ redirect_from:
   <img class="inline-logo" src="/images/nus-logo.jpg" alt="NUS logo">
   <a href="https://www.nus.edu.sg/">National University of Singapore (NUS)</a>.
   At the same time, I am working as a Generative AI Research Intern at
+  <img class="inline-logo" src="/images/Tencent_EN.png" alt="Tencent logo">
+  <a href="https://www.tencent.com/">Tencent</a>.
+  Previously, I worked as a Generative AI Research Intern at
   <img class="inline-logo" src="/images/riot-logo.png" alt="Riot Games logo">
-  <a href="https://www.riotgames.com/">Riot Games</a>.
-  Previously, I worked as a Research Assistant at
+  <a href="https://www.riotgames.com/">Riot Games</a>, and as a Research Assistant at
   <img class="inline-logo" src="/images/nju-logo.png" alt="Nanjing University logo">
   <a href="https://njusz.nju.edu.cn/main.htm">Nanjing University (Suzhou Campus)</a>, supervised by Prof.<a href="https://jessezhang92.github.io/index.html">Zhenyu Zhang</a>.
   Before joining NUS, I received my bachelor’s degree from
@@ -192,6 +194,7 @@ redirect_from:
 
 <div class="news-panel">
   <ul class="news-list">
+    <li><strong>2026.05</strong>: 🎉 I started a new internship as a <strong>Generative AI Research Intern</strong> at <strong>Tencent</strong>, after wrapping up my internship at Riot Games.</li>
     <li><strong>2026.01</strong>: 🎉 One paper has been accepted by <strong>ICASSP 2026</strong>.</li>
     <li><strong>2025.12</strong>: 🎉 I received an internship offer from <strong>Riot Games Singapore</strong>, starting in January 2026.</li>
     <li><strong>2025.11</strong>: One paper was submitted to <strong>CVPR 2026</strong>, where I am listed as first author and co-first author.</li>
@@ -237,15 +240,30 @@ redirect_from:
 
 <div class="entry-card">
   <div class="entry-logo-wrap">
+    <img class="entry-logo entry-logo-wide" src="/images/Tencent_EN.png" alt="Tencent logo">
+  </div>
+  <div>
+    <div class="entry-title">Tencent</div>
+    <div class="entry-subtitle">Generative AI Research Intern</div>
+    <div class="entry-time">May 2026 – Present</div>
+    <ul class="entry-desc">
+      <li>Work on generative AI research and development for image generation and editing related tasks.</li>
+      <li>Explore practical research problems and system-level applications of generative models.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="entry-card">
+  <div class="entry-logo-wrap">
     <img class="entry-logo" src="/images/riot-logo.png" alt="Riot Games logo">
   </div>
   <div>
     <div class="entry-title">Riot Games</div>
     <div class="entry-subtitle">Generative AI Research Intern</div>
-    <div class="entry-time">Jan. 2026 – Present</div>
+    <div class="entry-time">Jan. 2026 – May 2026</div>
     <ul class="entry-desc">
-      <li>Work on generative AI research and development for image generation and editing related tasks.</li>
-      <li>Explore practical research problems and system-level applications of generative models.</li>
+      <li>Worked on generative AI research and development for image generation and editing related tasks.</li>
+      <li>Explored practical research problems and system-level applications of generative models.</li>
     </ul>
   </div>
 </div>
