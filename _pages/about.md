@@ -342,7 +342,7 @@ Hongyu Wang\*, **Zhiyang Deng**\*, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Liâ
 
 <div class="paper-links">
   <a class="paper-btn" href="#">Project</a>
-  <a class="paper-btn" href="#">Paper</a>
+  <a class="paper-btn" href="https://ieeexplore.ieee.org/abstract/document/11462401">Paper</a>
   <a class="paper-btn" href="#">Code</a>
 </div>
 
