@@ -171,6 +171,18 @@ redirect_from:
     height: 78px;
   }
 }
+
+/* section anchors: keep headings clear of the sticky top bar */
+.page__content h2[id] {
+  scroll-margin-top: 4rem;
+}
+
+/* video thumbnail, styled like the image thumbnails */
+.paper-box .paper-box-image video {
+  max-width: 400px;
+  height: auto;
+  box-shadow: 3px 3px 6px #888;
+}
 </style>
 
 <span class='anchor' id='about-me'></span>
@@ -210,7 +222,7 @@ redirect_from:
   </ul>
 </div>
 
-<h2 class="cv-section-title">📖 Education</h2>
+<h2 class="cv-section-title" id="-education">📖 Education</h2>
 
 <div class="entry-card">
   <div class="entry-logo-wrap">
@@ -242,7 +254,7 @@ redirect_from:
   </div>
 </div>
 
-<h2 class="cv-section-title">💼 Experience</h2>
+<h2 class="cv-section-title" id="-experience">💼 Experience</h2>
 
 <div class="entry-card">
   <div class="entry-logo-wrap">
@@ -303,7 +315,95 @@ redirect_from:
   </div>
 </div>
 
-<h2 class="cv-section-title">📝 Publications</h2>
+<h2 class="cv-section-title" id="-publications">📝 Publications</h2>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Under Review</div>
+      <img src='images/GameCrafter_teaser.jpg' alt="GameCrafter teaser" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**GameCrafter: An Agentic Framework for Multi-Gameplay Game World Generation**
+
+**Zhiyang Deng**\*, Xiyao Deng\*, Yeying Jin
+
+<div class="paper-links">
+  <a class="paper-btn" href="#">Project</a>
+  <a class="paper-btn" href="#">Paper</a>
+  <a class="paper-btn" href="#">Code</a>
+</div>
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Under Review</div>
+      <img src='images/ActionRoPE_method.png' alt="ActionRoPE method overview" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**ActionRoPE: Action as Coordinates for Spatially Consistent Control in Planar-Camera Game World Models**
+
+**Zhiyang Deng**, Yuzhe Wu, Zijun Lin, Yeying Jin
+
+<div class="paper-links">
+  <a class="paper-btn" href="#">Project</a>
+  <a class="paper-btn" href="#">Paper</a>
+  <a class="paper-btn" href="#">Code</a>
+</div>
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Under Review</div>
+      <img src='images/GameDirector_method.png' alt="GameDirector framework" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models**
+
+Zijun Lin\*, **Zhiyang Deng**\*, Yuzhe Wu, Bihan Wen, Yeying Jin
+
+<div class="paper-links">
+  <a class="paper-btn" href="https://jimntu.github.io/gamedirector/">Project</a>
+  <a class="paper-btn" href="https://arxiv.org/abs/2609.25652">Paper</a>
+  <a class="paper-btn" href="#">Code</a>
+</div>
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Under Review</div>
+      <video src='images/WorldMind_promo.mp4' poster='images/WorldMind_promo_poster.jpg' width="100%" autoplay muted loop playsinline preload="metadata" aria-label="WorldMind promo video"></video>
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**WorldMind: Decoupled Game World Model for State-Aware NPC Behavior**
+
+**Zhiyang Deng**, Boran Zhang, Danze Chen, Yeying Jin
+
+<div class="paper-links">
+  <a class="paper-btn" href="https://teawhite.cn/WorldMind/">Project</a>
+  <a class="paper-btn" href="https://arxiv.org/abs/2608.21439">Paper</a>
+  <a class="paper-btn" href="https://github.com/TeaWhiteBro/WorldMind">Code</a>
+</div>
+
+  </div>
+</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -316,7 +416,7 @@ redirect_from:
 
 **Grid-A-Character: Delving into Grid Condition Strategy for Unlocking Consistent and Controllable Character Generation**
 
-**Zhiyang Deng**, Zhuofan Xiao, Jian Yang, Zhenyu Zhang†
+**Zhiyang Deng**\*, Zhuofan Xiao\*, Jian Yang, Zhenyu Zhang†
 
 <div class="paper-links">
   <a class="paper-btn" href="#">Project</a>
@@ -371,7 +471,7 @@ Hongyu Wang\*, **Zhiyang Deng**\*, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li�
   </div>
 </div>
 
-<h2 class="cv-section-title">🎖 Honors and Awards</h2>
+<h2 class="cv-section-title" id="-honors-and-awards">🎖 Honors and Awards</h2>
 
 - *2024.12* Hunan University 2023–2024 Individual Scholarship.
 - *2023.12* Hunan University 2022–2023 Individual Scholarship.
