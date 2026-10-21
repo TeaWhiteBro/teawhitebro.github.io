@@ -431,7 +431,7 @@ redirect_from:
 
 **GameCrafter: An Agentic Framework for Multi-Gameplay Game World Generation**
 
-**Zhiyang Deng**\*, Xiyao Deng\*, Yeying Jin
+**Zhiyang Deng**\*, Xiyao Deng\*, Yeying Jin†
 
 <div class="paper-links">
   <a class="paper-btn" href="https://teawhite.cn/GameCrafter/"><svg class="btn-icon" aria-hidden="true"><use href="#ic-home"></use></svg>Project</a>
@@ -453,7 +453,7 @@ redirect_from:
 
 **ActionRoPE: Action as Coordinates for Spatially Consistent Control in Planar-Camera Game World Models**
 
-**Zhiyang Deng**, Yuzhe Wu, Zijun Lin, Yeying Jin
+**Zhiyang Deng**, Yuzhe Wu, Zijun Lin, Yeying Jin†
 
 <div class="paper-links">
   <a class="paper-btn" href="https://teawhite.cn/ActionRoPE/"><svg class="btn-icon" aria-hidden="true"><use href="#ic-home"></use></svg>Project</a>
@@ -476,7 +476,7 @@ redirect_from:
 
 **GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models**
 
-Zijun Lin\*, **Zhiyang Deng**\*, Yuzhe Wu, Bihan Wen, Yeying Jin
+Zijun Lin\*, **Zhiyang Deng**\*, Yuzhe Wu, Bihan Wen, Yeying Jin†
 
 <div class="paper-links">
   <a class="paper-btn" href="https://jimntu.github.io/gamedirector/"><svg class="btn-icon" aria-hidden="true"><use href="#ic-home"></use></svg>Project</a>
@@ -498,7 +498,7 @@ Zijun Lin\*, **Zhiyang Deng**\*, Yuzhe Wu, Bihan Wen, Yeying Jin
 
 **WorldMind: Decoupled Game World Model for State-Aware NPC Behavior**
 
-**Zhiyang Deng**, Boran Zhang, Danze Chen, Yeying Jin
+**Zhiyang Deng**, Boran Zhang, Danze Chen, Yeying Jin†
 
 <div class="paper-links">
   <a class="paper-btn" href="https://teawhite.cn/WorldMind/"><svg class="btn-icon" aria-hidden="true"><use href="#ic-home"></use></svg>Project</a>
