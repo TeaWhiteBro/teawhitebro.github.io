@@ -177,11 +177,61 @@ redirect_from:
   scroll-margin-top: 4rem;
 }
 
-/* video thumbnail, styled like the image thumbnails */
+/* video thumbnail, sized like the image thumbnails */
 .paper-box .paper-box-image video {
   max-width: 400px;
   height: auto;
-  box-shadow: 3px 3px 6px #888;
+}
+
+/* publication thumbnails: rounded corners, softer shadow */
+.paper-box .paper-box-image img,
+.paper-box .paper-box-image video {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.paper-box .badge {
+  border-radius: 4px;
+}
+
+/* pinned news item */
+.news-list li.news-pinned {
+  list-style: none;
+  margin: 0 0 0.7rem -1.25rem;
+  padding: 0.5rem 0.85rem;
+  background: #fff8ec;
+  border: 1px solid #f3e0bb;
+  border-radius: 10px;
+}
+
+.news-pin {
+  display: inline-block;
+  margin-right: 0.35rem;
+  padding: 0 0.55rem;
+  border-radius: 999px;
+  background: #ffe8bd;
+  color: #8a5a00;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+/* marker legend under the Publications heading */
+.pub-note {
+  margin: -0.3rem 0 0.4rem;
+  font-size: 0.88rem;
+  color: #777;
+}
+
+/* buttons whose link is not public yet */
+.paper-btn.is-soon {
+  color: #aaa !important;
+  border-color: #e8e8e8;
+  cursor: default;
+}
+
+.paper-btn.is-soon:hover {
+  background: #fff;
 }
 </style>
 
@@ -193,31 +243,32 @@ redirect_from:
   <a href="https://www.nus.edu.sg/">National University of Singapore (NUS)</a>.
   At the same time, I am working as a World Model Research Intern at
   <img class="inline-logo inline-logo-wide" src="/images/Tencent_EN.png" alt="Tencent logo">
-  <a href="https://www.tencent.com/">Tencent</a>.
+  <a href="https://www.tencent.com/">Tencent</a>, supervised by Dr. <a href="https://jinyeying.github.io/">Yeying Jin</a>.
   Previously, I worked as a Generative AI Research Intern at
   <img class="inline-logo" src="/images/riot-logo.png" alt="Riot Games logo">
   <a href="https://www.riotgames.com/">Riot Games</a>, and as a Research Assistant at
   <img class="inline-logo" src="/images/nju-logo.png" alt="Nanjing University logo">
-  <a href="https://njusz.nju.edu.cn/main.htm">Nanjing University (Suzhou Campus)</a>, supervised by Prof.<a href="https://jessezhang92.github.io/index.html">Zhenyu Zhang</a>.
+  <a href="https://njusz.nju.edu.cn/main.htm">Nanjing University (Suzhou Campus)</a>, supervised by Prof. <a href="https://jessezhang92.github.io/index.html">Zhenyu Zhang</a>.
   Before joining NUS, I received my bachelor’s degree from
   <img class="inline-logo" src="/images/hnu-logo.png" alt="Hunan University logo">
-  <a href="https://www.hnu.edu.cn/">Hunan University</a>, mentored by Prof.<a href="https://csee.hnu.edu.cn/people/liruihui">Ruihui Li</a>.
+  <a href="https://www.hnu.edu.cn/">Hunan University</a>, mentored by Prof. <a href="https://csee.hnu.edu.cn/people/liruihui">Ruihui Li</a>.
 </div>
 
 <div class="profile-intro" style="margin-top:-0.2rem; margin-bottom:1.5rem;">
-  My research interests lie in computer graphics and generative models, with a particular focus on 3D digital human reconstruction and generation.
+  My research interests lie in <strong>image generation</strong>, <strong>video generation</strong>, <strong>world models</strong>, and <strong>3D generation</strong>.
 </div>
 
-## 🔥 News
+<h2 class="cv-section-title" id="-news">🔥 News</h2>
 
 <div class="news-panel">
   <ul class="news-list">
+    <li class="news-pinned"><span class="news-pin">📌 Pinned</span> <strong>2027.01</strong>: I will be joining <strong>Riot Games Singapore</strong> as a full-time <strong>Machine Learning Engineer and Researcher</strong>.</li>
+    <li><strong>2026.10</strong>: 🚀 <a href="https://jimntu.github.io/gamedirector/"><strong>GameDirector</strong></a>, <a href="https://teawhite.cn/ActionRoPE/"><strong>ActionRoPE</strong></a>, and <a href="https://teawhite.cn/GameCrafter/"><strong>GameCrafter</strong></a> are released.</li>
+    <li><strong>2026.08</strong>: 🚀 <a href="https://teawhite.cn/WorldMind/"><strong>WorldMind</strong></a> is released.</li>
     <li><strong>2026.05</strong>: 🎉 I started a new internship as a <strong>World Model Research Intern</strong> at <strong>Tencent</strong>.</li>
     <li><strong>2026.01</strong>: 🎉 One paper has been accepted by <strong>ICASSP 2026</strong>.</li>
     <li><strong>2025.12</strong>: 🎉 I received an internship offer from <strong>Riot Games Singapore</strong>, starting in January 2026.</li>
-    <li><strong>2025.11</strong>: One paper was submitted to <strong>CVPR 2026</strong>, where I am listed as first author and co-first author.</li>
     <li><strong>2025.05</strong>: 🎉 I received an offer for the <strong>Master of Computing</strong> program at the <strong>National University of Singapore</strong>.</li>
-    <li><strong>2025.04</strong>: Two papers were submitted to <strong>ACM MM 2025</strong>, where I am listed as first author and co-first author.</li>
     <li><strong>2024.11</strong>: 🎉 I officially started working as a <strong>Research Assistant</strong> at <strong>NJU(SZ)</strong>. Feel free to reach out for a coffee chat!</li>
   </ul>
 </div>
@@ -234,7 +285,7 @@ redirect_from:
     <div class="entry-time">Aug. 2025 – Jan. 2027</div>
     <ul class="entry-desc">
       <li>Currently pursuing a Master’s degree in Computing.</li>
-      <li>Research focus: computer graphics, generative modeling, and 3D digital humans.</li>
+      <li>Research focus: image generation, video generation, world models, and 3D generation.</li>
     </ul>
   </div>
 </div>
@@ -317,11 +368,13 @@ redirect_from:
 
 <h2 class="cv-section-title" id="-publications">📝 Publications</h2>
 
+<p class="pub-note">* Equal contribution &nbsp;&nbsp; † Corresponding author</p>
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">Under Review</div>
-      <img src='images/GameCrafter_teaser.jpg' alt="GameCrafter teaser" width="100%">
+      <img src='images/GameCrafter_teaser_thumb.jpg' alt="GameCrafter teaser" width="100%" loading="lazy" decoding="async">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -331,9 +384,9 @@ redirect_from:
 **Zhiyang Deng**\*, Xiyao Deng\*, Yeying Jin
 
 <div class="paper-links">
-  <a class="paper-btn" href="#">Project</a>
-  <a class="paper-btn" href="#">Paper</a>
-  <a class="paper-btn" href="#">Code</a>
+  <a class="paper-btn" href="https://teawhite.cn/GameCrafter/">Project</a>
+  <span class="paper-btn is-soon" title="Coming soon">Paper</span>
+  <span class="paper-btn is-soon" title="Coming soon">Code</span>
 </div>
 
   </div>
@@ -343,7 +396,7 @@ redirect_from:
   <div class='paper-box-image'>
     <div>
       <div class="badge">Under Review</div>
-      <img src='images/ActionRoPE_method.png' alt="ActionRoPE method overview" width="100%">
+      <img src='images/ActionRoPE_method_thumb.jpg' alt="ActionRoPE method overview" width="100%" loading="lazy" decoding="async">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -353,9 +406,9 @@ redirect_from:
 **Zhiyang Deng**, Yuzhe Wu, Zijun Lin, Yeying Jin
 
 <div class="paper-links">
-  <a class="paper-btn" href="#">Project</a>
-  <a class="paper-btn" href="#">Paper</a>
-  <a class="paper-btn" href="#">Code</a>
+  <a class="paper-btn" href="https://teawhite.cn/ActionRoPE/">Project</a>
+  <a class="paper-btn" href="https://arxiv.org/abs/2610.25861">Paper</a>
+  <span class="paper-btn is-soon" title="Coming soon">Code</span>
 </div>
 
   </div>
@@ -365,7 +418,7 @@ redirect_from:
   <div class='paper-box-image'>
     <div>
       <div class="badge">Under Review</div>
-      <img src='images/GameDirector_method.png' alt="GameDirector framework" width="100%">
+      <img src='images/GameDirector_method_thumb.jpg' alt="GameDirector framework" width="100%" loading="lazy" decoding="async">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -377,7 +430,7 @@ Zijun Lin\*, **Zhiyang Deng**\*, Yuzhe Wu, Bihan Wen, Yeying Jin
 <div class="paper-links">
   <a class="paper-btn" href="https://jimntu.github.io/gamedirector/">Project</a>
   <a class="paper-btn" href="https://arxiv.org/abs/2609.25652">Paper</a>
-  <a class="paper-btn" href="#">Code</a>
+  <a class="paper-btn" href="https://github.com/Jimntu/GameDirector_code">Code</a>
 </div>
 
   </div>
@@ -387,7 +440,7 @@ Zijun Lin\*, **Zhiyang Deng**\*, Yuzhe Wu, Bihan Wen, Yeying Jin
   <div class='paper-box-image'>
     <div>
       <div class="badge">Under Review</div>
-      <video src='images/WorldMind_promo.mp4' poster='images/WorldMind_promo_poster.jpg' width="100%" autoplay muted loop playsinline preload="metadata" aria-label="WorldMind promo video"></video>
+      <video src='images/WorldMind_promo.mp4' poster='images/WorldMind_promo_poster.jpg' width="100%" muted loop playsinline preload="none" data-play-in-view aria-label="WorldMind promo video"></video>
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -409,7 +462,7 @@ Zijun Lin\*, **Zhiyang Deng**\*, Yuzhe Wu, Bihan Wen, Yeying Jin
   <div class='paper-box-image'>
     <div>
       <div class="badge">Under Review</div>
-      <img src='images/GridACharacter_teaser.png' alt="Grid-A-Character teaser" width="100%">
+      <img src='images/GridACharacter_teaser_thumb.jpg' alt="Grid-A-Character teaser" width="100%" loading="lazy" decoding="async">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -419,9 +472,9 @@ Zijun Lin\*, **Zhiyang Deng**\*, Yuzhe Wu, Bihan Wen, Yeying Jin
 **Zhiyang Deng**\*, Zhuofan Xiao\*, Jian Yang, Zhenyu Zhang†
 
 <div class="paper-links">
-  <a class="paper-btn" href="#">Project</a>
-  <a class="paper-btn" href="#">Paper</a>
-  <a class="paper-btn" href="#">Code</a>
+  <span class="paper-btn is-soon" title="Coming soon">Project</span>
+  <span class="paper-btn is-soon" title="Coming soon">Paper</span>
+  <span class="paper-btn is-soon" title="Coming soon">Code</span>
 </div>
 
   </div>
@@ -431,7 +484,7 @@ Zijun Lin\*, **Zhiyang Deng**\*, Yuzhe Wu, Bihan Wen, Yeying Jin
   <div class='paper-box-image'>
     <div>
       <div class="badge">ICASSP 2026</div>
-      <img src='images/MotionAvatar_teaser.png' alt="HM-Avatar teaser" width="100%">
+      <img src='images/MotionAvatar_teaser_thumb.jpg' alt="HM-Avatar teaser" width="100%" loading="lazy" decoding="async">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -441,9 +494,9 @@ Zijun Lin\*, **Zhiyang Deng**\*, Yuzhe Wu, Bihan Wen, Yeying Jin
 Hongyu Wang\*, **Zhiyang Deng**\*, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li†
 
 <div class="paper-links">
-  <a class="paper-btn" href="#">Project</a>
+  <span class="paper-btn is-soon" title="Coming soon">Project</span>
   <a class="paper-btn" href="https://ieeexplore.ieee.org/abstract/document/11462401">Paper</a>
-  <a class="paper-btn" href="#">Code</a>
+  <span class="paper-btn is-soon" title="Coming soon">Code</span>
 </div>
 
   </div>
@@ -453,7 +506,7 @@ Hongyu Wang\*, **Zhiyang Deng**\*, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li�
   <div class='paper-box-image'>
     <div>
       <div class="badge">Under Review</div>
-      <img src='images/TextureAvatar_teaser.png' alt="TextureAvatar teaser" width="100%">
+      <img src='images/TextureAvatar_teaser_thumb.jpg' alt="TextureAvatar teaser" width="100%" loading="lazy" decoding="async">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -463,9 +516,9 @@ Hongyu Wang\*, **Zhiyang Deng**\*, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li�
 **Zhiyang Deng**, Hongyu Wang, Xiaojun Chen, Ying Liu, Ruihui Li†
 
 <div class="paper-links">
-  <a class="paper-btn" href="#">Project</a>
-  <a class="paper-btn" href="#">Paper</a>
-  <a class="paper-btn" href="#">Code</a>
+  <span class="paper-btn is-soon" title="Coming soon">Project</span>
+  <span class="paper-btn is-soon" title="Coming soon">Paper</span>
+  <span class="paper-btn is-soon" title="Coming soon">Code</span>
 </div>
 
   </div>
@@ -476,3 +529,21 @@ Hongyu Wang\*, **Zhiyang Deng**\*, Wenzhe He, Xiaojun Chen, Ying Liu, Ruihui Li�
 - *2024.12* Hunan University 2023–2024 Individual Scholarship.
 - *2023.12* Hunan University 2022–2023 Individual Scholarship.
 - *2022.12* Hunan University 2021–2022 Individual Scholarship.
+
+<script>
+(function () {
+  var videos = document.querySelectorAll('video[data-play-in-view]');
+  if (!videos.length) return;
+  if (!('IntersectionObserver' in window)) {
+    videos.forEach(function (v) { v.play().catch(function () {}); });
+    return;
+  }
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.play().catch(function () {}); }
+      else { e.target.pause(); }
+    });
+  }, { rootMargin: '200px 0px' });
+  videos.forEach(function (v) { observer.observe(v); });
+})();
+</script>
