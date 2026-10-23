@@ -424,7 +424,7 @@ redirect_from:
   <div class='paper-box-image'>
     <div>
       <div class="badge badge-arxiv">arXiv 2026</div>
-      <img src='images/GameCrafter_teaser_thumb.jpg' alt="GameCrafter teaser" width="100%" loading="lazy" decoding="async">
+      <video src='images/GameCrafter_promo.mp4' poster='images/GameCrafter_promo_poster.jpg' width="100%" muted loop playsinline preload="none" data-play-in-view aria-label="GameCrafter promo video"></video>
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -435,8 +435,8 @@ redirect_from:
 
 <div class="paper-links">
   <a class="paper-btn" href="https://teawhite.cn/GameCrafter/"><svg class="btn-icon" aria-hidden="true"><use href="#ic-home"></use></svg>Project</a>
-  <span class="paper-btn is-soon" title="Coming soon"><svg class="btn-icon" aria-hidden="true"><use href="#ic-doc"></use></svg>Paper</span>
-  <span class="paper-btn is-soon" title="Coming soon"><svg class="btn-icon" aria-hidden="true"><use href="#ic-github"></use></svg>Code</span>
+  <a class="paper-btn" href="https://github.com/TeaWhiteBro/GameCrafter/blob/main/paper/GameCrafter.pdf"><svg class="btn-icon" aria-hidden="true"><use href="#ic-doc"></use></svg>Paper</a>
+  <a class="paper-btn" href="https://github.com/TeaWhiteBro/GameCrafter"><svg class="btn-icon" aria-hidden="true"><use href="#ic-github"></use></svg>Code</a>
 </div>
 
   </div>
